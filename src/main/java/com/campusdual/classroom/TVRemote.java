@@ -46,10 +46,6 @@ public class TVRemote {
     }
 
     private boolean checkMinValue(int value){
-        if (value == 0){
-            return false;
-        }else{
-            return true;
-        }
+        return value != 0 ? true : false;
     }
 }
